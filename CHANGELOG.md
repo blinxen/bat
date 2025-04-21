@@ -103,16 +103,7 @@
 - Update base16 README links to community driven base16 work #2871 (@JamyGolden)
 - Work around build failures when building `bat` from vendored sources #3179 (@dtolnay)
 - CICD: Stop building for x86_64-pc-windows-gnu which fails #3261 (Enselic)
-- CICD: replace windows-2019 runners with windows-2025 #3339 (@cyqsimon)
-- Build script: replace string-based codegen with quote-based codegen #3340 (@cyqsimon)
-- Improve code coverage of `--list-languages` parameter #2942 (@sblondon)
-- Only start offload worker thread when there's more than 1 core #2956 (@cyqsimon)
-- Update terminal-colorsaurus (the library used for dark/light detection) to 1.0, see #3347 (@bash)
-- Update console dependency to 0.16, see #3351 (@musicinmybrain)
-- Fixed some typos #3244 (@ssbarnea)
-- Update onig_sys dependency to 69.9.1 to fix a gcc build failure #3400 (@CosmicHorrorDev)
-- Add a cargo feature (`vendored-libgit2`) to build with vendored libgit2 version without depending on the system's one #3426 (@0x61nas)
-- Update syntect dependency to v5.3.0 to fix a few minor bugs, see #3410 (@keith-hall)
+- Replace `libgit2` with a pure Rust implementation of git called `gitoxide`, see PR #3235 (@blinxen)
 
 ## Syntaxes
 
